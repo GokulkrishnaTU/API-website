@@ -1,0 +1,194 @@
+.main {
+    width: 100%;
+    height: 1500px;
+    background-color: rgb(251, 252, 254);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+  }
+
+
+  .bgImg{
+    width: 600px;
+    height: 250px;
+
+}
+
+.bgImage{
+    position: absolute;
+    right: 0;
+}
+
+#logoImg {
+  width: 200px;
+  height: 100px;
+  margin-left: 180px;
+}
+
+  .head {
+    margin-left: 60px;
+    font-family: "Public Sans";
+    font-weight: 600;
+    color: #6c8294;
+  
+  }
+
+  #demoBtn{
+    margin-left: 450px;
+    height: 43px;
+    width: 174px;
+    border-radius: 77px;
+    background-color: #ba4270;
+    color: white;
+    font-family: "Public Sans";
+    border: none;
+    position: absolute;
+    z-index: 1;
+    
+
+}
+
+.text1{
+    font-family: 'DM Serif Display';
+    font-size: 46px;
+    color: #36536b;
+    margin-left: 300px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.values{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.value1{
+    width: 160px;
+}
+
+
+.footer{
+    display: flex;
+    margin-top: 200px;
+}
+
+.btmTxtF{
+
+    font-family: 'DM Serif Display';
+    font-size: 45px;
+    color: #36536b;
+    margin-left: 150px;
+
+}
+
+#inpBtn{
+    position: relative;
+    margin-left: 500px;
+
+
+}
+
+#inp{
+    width: 380px;
+    height: 60px;
+    background-color: white;
+    border-radius: 74px;
+    border: none;
+    font-family: "Public Sans";
+    font-weight: 600;
+    color: #6c8294;
+    margin-top: 20px;
+
+}
+
+#inp::placeholder{
+    text-align:center ;
+}
+
+#inp:focus{
+outline: none;}
+
+#button1{
+    width: 160px;
+    height: 61px;
+    border-radius: 77px;
+    background-color: #ba4270;
+    color: white;
+    font-family: "Public Sans";
+    border: none;
+    position: absolute;
+    left: 26em;
+    top: 2px;
+    margin-top: 20px;
+
+
+}
+
+
+.footerBar{
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    height: 100px;
+    margin-left: 100px;
+  }
+
+  .bottomBar{
+    background-color: #1b262f;
+    margin-top: 50px;
+  }
+
+  .logoImgFooter{
+    width: 100px;
+    height: 60px;
+  }
+
+  .headingTag{
+
+    font-family: 'DM Serif Display';
+    font-size: 29px;
+    color: #36536b;
+    margin-left: 10px;
+  }
+
+  .paraTag{
+
+    font-family: "Public Sans";
+    color: #6c8294;
+    font-size: 13px;
+    line-height: 28px;
+    align-items: flex-start;
+
+  }
+
+  .left1{
+    width: 180px;
+    margin-left: 165px;
+  }
+
+  .right1{
+    width: 650px;
+
+  }
+
+  .valueTag{
+
+    font-family: 'DM Serif Display';
+    font-size: 45px;
+    color:  #ba4270;
+  }
+
+  .valueHead{
+    font-family: "Public Sans";
+    color: #6c8294;
+    font-size: 15px;
+
+  }
