@@ -239,6 +239,7 @@ visibility: hidden;
 
 .middle-img{
   position: absolute;
+  visibility: visible;
 }
 .smIcons{
 z-index: 1;
@@ -358,6 +359,10 @@ position: absolute;
 }
 
 .smIcons1{
+  visibility: hidden;
+}
+
+.middle-img{
   visibility: hidden;
 }
   
@@ -551,6 +556,10 @@ flex-direction: column;  /* width: 100%; */
 
       .smIcons1{
         visibility: visible;
+      }
+
+      .middle-img{
+        visibility: hidden;
       }
 
    
