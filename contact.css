@@ -1,6 +1,9 @@
+
+/* Desktop View */
+
 .main {
     width: 100%;
-    height: 1500px;
+    /* height: 1154px;;? */
     background-color: rgb(251, 252, 254);
   }
   
@@ -10,12 +13,21 @@
     /* width: 100%; */
   }
 
+  .navLink{
+    text-decoration: none;
+    color: #6c8294;
+
+  }
+
 
   .bgImg{
     width: 600px;
     height: 250px;
-
+    position: absolute;
+    right: 0;
 }
+
+
 
 .bgImage{
     position: absolute;
@@ -57,8 +69,566 @@
     font-size: 50px;
     color: #36536b;
     margin-left: 230px;
+    margin-top: 100px;
+
 }
 
 .body{
     display: flex;
+}
+
+.innerLeft{
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 240px;
+
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid  #6c8294;
+  font-family: "Public Sans";
+
+}
+input[type=email] {
+  font-family: "Public Sans";
+  border: none;
+  border-bottom: 1px solid   #6c8294;
+
+}
+
+.right{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+
+
+.footer{
+    display: flex;
+    margin-top: 200px;
+}
+
+.btmTxtF{
+
+    font-family: 'DM Serif Display';
+    font-size: 45px;
+    color: #36536b;
+    margin-left: 150px;
+
+}
+
+#inpBtn{
+    position: relative;
+    margin-left: 500px;
+
+
+}
+
+#inp{
+    width: 380px;
+    height: 60px;
+    background-color: white;
+    border-radius: 74px;
+    border: none;
+    font-family: "Public Sans";
+    font-weight: 600;
+    color: #6c8294;
+    margin-top: 20px;
+
+}
+
+#inp::placeholder{
+    text-align:center ;
+    background: none;
+
+}
+
+#inp:focus{
+outline: none;}
+
+#button1{
+    width: 160px;
+    height: 61px;
+    border-radius: 77px;
+    background-color: #ba4270;
+    color: white;
+    font-family: "Public Sans";
+    border: none;
+    position: absolute;
+    left: 26em;
+    top: 2px;
+    margin-top: 20px;
+
+
+}
+.item1{
+    margin-left: 150px;
+
+}
+
+.footerBar{
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    height: 100px;
+    margin-left: 100px;
+  }
+
+  .bottomBar{
+    background-color: #1b262f;
+    margin-top: 50px;
+    height: 100px;
+    height: auto;
+  }
+
+  .logoImgFooter{
+    width: 100px;
+    height: 60px;
+  }
+
+  .checkBox{
+    font-family: "Public Sans";
+    color: #6c8294;
+
+  }
+
+  .submit{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(251, 252, 254);
+    color: #6c8294;
+    border-radius: 30px;
+  }
+
+  input::placeholder{
+    background-color: rgb(251, 252, 254);
+  }
+
+  input:focus{
+    outline: none;
+  }
+
+  .bgImgNew{
+    visibility: hidden;
+   
+  }
+
+  .imgTag1{
+    visibility: hidden;
+  }
+  #bottom-image{
+    visibility: hidden;
+   }
+
+   #logoImage{
+    visibility: hidden;
+  }
+
+  .smIcons{
+    z-index: 1;
+    margin-left: 40px;
+    right: 57px;
+    position: absolute;
+    }
+
+
+    .smIcons1{
+      visibility: hidden;
+    }
+
+    #iconsHover:hover{
+      background-color: #ba4270;
+    }
+
+    .submit:hover{
+      background-color: #36536b;
+      color: white;
+    }
+
+
+  /* Tablet View */
+
+
+
+  @media screen and (max-width:1080px){
+
+
+    .main {
+      width: 100%;
+      height: 2000px;
+      background-color: rgb(251, 252, 254);
+    }
+
+    #demoBtn{
+      margin-left: 147px;
+      height: 43px;
+      width: 174px;
+      border-radius: 77px;
+      background-color: #ba4270;
+      color: white;
+      font-family: "Public Sans";
+      border: none;
+      position: absolute;
+      z-index: 1;
+      
+  
+  }
+
+  input::placeholder{
+    background-color: rgb(251, 252, 254);
+  }
+
+  input:focus{
+    outline: none;
+  }
+
+.bgImg{
+  visibility: hidden;
+}
+
+.bgImgNew{
+  visibility: visible;
+  position: absolute;
+  right: 0;
+}
+
+.bgImage{
+  position: absolute;
+  right: 0;
+}
+
+#logoImg {
+width: 200px;
+height: 100px;
+margin-left: 150px;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.btmTxtF {
+  font-family: 'DM Serif Display';
+  font-size: 45px;
+  color: #36536b;
+  margin-left: 370px;
+  margin-top: 100px;
+}
+
+#inpBtn {
+  position: relative;
+  margin-left: 202px;
+}
+
+.imgTag{
+  margin-left: 110px;
+}
+
+.imgTag1{
+  visibility: hidden;
+}
+
+.innerLeft {
+  height: 500px;
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 212px;
+  margin-top: 100px;
+}
+
+.headTag {
+  font-family: 'DM Serif Display';
+  font-size: 56px;
+  color: #36536b;
+  margin-left: 230px;
+  width: 623px;
+}
+
+
+.imgTag {
+  margin-left: 110px;
+  width: 667px;
+}
+
+#bottom-image{
+  visibility: hidden;
+ }
+
+ #logoImage{
+  visibility: hidden;
+}
+
+
+.smIcons1{
+  visibility: hidden;
+}
+  }
+
+
+
+    /* mobile view  */
+
+
+
+
+  @media screen and (max-width:720px){
+
+    
+
+    .main {
+      width: 100%;
+      height: 1240px;
+      background-color: rgb(251, 252, 254);
+    }
+
+
+
+  .head {
+    margin-left: 50px;
+    font-family: "Public Sans";
+    font-weight: 600;
+    color: #6c8294;
+    margin-top: 50px;
+  }
+  
+  #button1 {
+    width: 460px;
+    height: 61px;
+    border-radius: 77px;
+    background-color: #ba4270;
+    color: white;
+    font-family: "Public Sans";
+    border: none;
+    position: absolute;
+    left: -4em;
+    bottom: -75px;
+    margin-top: 116px;
+  }
+  
+  .btmTxtF {
+    font-family: 'DM Serif Display';
+    font-size: 45px;
+    color: #36536b;
+    margin-left: 240px;
+    margin-top: 100px;
+  }
+  
+  .header {
+    display: flex;
+  flex-direction: column;
+    /* width: 100%; */
+  }
+
+  #demoBtn {
+    margin-left: -63px;
+    height: 43px;
+    width: 174px;
+    border-radius: 69px;
+    background-color: #ba4270;
+    color: white;
+    font-family: "Public Sans";
+    border: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+  
+  }
+ 
+  .headTag {
+    text-align: center;
+    font-family: 'DM Serif Display';
+    font-size: 52px;
+    color: #36536b;
+    margin-left: 158px;
+    width: 498px;
+    margin-top: 100px;
+}
+
+.innerLeft {
+  height: 700px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 190px;
+}
+
+
+
+.imgTag{
+  visibility: hidden;
+}
+
+.imgTag1 {
+  visibility: visible;
+  margin-left: 56px;
+  width: 458px;
+}
+
+.right {
+  margin-left: 84px;
+  margin-top: -160px;
+}
+
+.footerBar {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 255px;
+}
+
+#inp {
+  width: 460px;
+  height: 60px;
+  background-color: white;
+  border-radius: 74px;
+  border: none;
+  font-family: "Public Sans";
+  font-weight: 600;
+  color: #6c8294;
+  margin-top: 20px;
+  position: absolute;
+  left: -64px;
+}
+
+.footerBar{
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  width: 100%;
+padding-top: 100px;}
+
+.bottomBar {
+  background-color: #1b262f;
+  margin-top: 50px;
+  height: 550px;
+  width: 100%
+}
+
+#demoBtn {
+  margin-left: -63px;
+  height: 43px;
+  width: 174px;
+  border-radius: 69px;
+  background-color: #ba4270;
+  color: white;
+  font-family: "Public Sans";
+  border: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 50px;
+
+}
+.head {
+  margin-left: 50px;
+  font-family: "Public Sans";
+  font-weight: 600;
+  color: #6c8294;
+  margin-top: 50px;
+  z-index: 1;
+
+}
+
+#button1 {
+  width: 460px;
+  height: 61px;
+  border-radius: 77px;
+  background-color: #ba4270;
+  color: white;
+  font-family: "Public Sans";
+  border: none;
+  position: absolute;
+  left: -4em;
+  bottom: -75px;
+  margin-top: 116px;
+}
+
+.btmTxtF {
+  font-family: 'DM Serif Display';
+  font-size: 45px;
+  color: #36536b;
+  margin-left: 240px;
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+flex-direction: column;  /* width: 100%; */
+}
+
+.body{
+  width: 100%;
+}
+
+.heading{
+  width: 100%;
+}
+.footer{
+  width: 100%;
+}
+
+
+body{
+position: sticky;  
+}
+
+#bottom-image {
+  position: absolute;
+  bottom: 1;
+  margin-top: 158px;
+    width: 705px;
+
+  visibility: visible;
+}
+
+
+#headLogo{
+  visibility: hidden;
+}
+
+
+#logoImage{
+  width: 200px;
+  visibility: visible;
+}
+
+
+#togglerHead{
+  background-color: #1b262f;
+    height: 600px;
+    margin-left: 70px;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    width: 486px;
+}
+
+.smIcons{
+  visibility: hidden;
+      }
+
+      .smIcons1{
+        visibility: visible;
+      }
+
+
+
+
+
+
 }

@@ -1,6 +1,9 @@
+/* Desktop View */
+
+
 .main {
     width: 100%;
-    height: 850px;
+    height: 1090px;
     background-color: rgb(251, 252, 254);
   }
   
@@ -10,12 +13,21 @@
     /* width: 100%; */
   }
 
+  .navLink{
+    text-decoration: none;
+    color: #6c8294;
+
+  }
+
 
   .bgImg{
     width: 600px;
     height: 250px;
-
+    position: absolute;
+    right: 0;
 }
+
+
 
 .bgImage{
     position: absolute;
@@ -56,6 +68,8 @@
     font-size: 56px;
     color: #36536b;
     margin-left: 190px;
+    margin-bottom: 70px;
+
 
   }
 
@@ -107,6 +121,7 @@
     font-family: "Public Sans";
     line-height: 44px;
     color: #36536b;
+    text-align: center;
 
 }
 
@@ -114,7 +129,12 @@
     margin-left: 90px;
 }
 
-.btn{
+.listImg1{
+  margin-left: 100px;
+  color: #6c8294;
+}
+
+.button{
     width: 170px;
     height: 50px;
     background-color:rgb(251, 252, 254);
@@ -122,6 +142,16 @@
     border-radius: 30px;
     margin-left: 104px;
     margin-top: 20px;
+    border: black;
+    outline: solid ;
+    margin-left: 146px;
+
+
+}
+
+.button:hover{
+  background-color: #36536b;
+  color: white;
 }
 
 .footer{
@@ -201,5 +231,359 @@ outline: none;}
   .logoImgFooter{
     width: 100px;
     height: 60px;
+  }
+
+  .bgImgNew{
+   visibility: hidden;
+  }
+
+  .hr1{
+    visibility: hidden;
+  }
+
+
+  #logoImage{
+    visibility: hidden;
+  }
+
+  .smIcons{
+    z-index: 1;
+    margin-left: 40px;
+    right: 57px;
+    position: absolute;
+    }
+
+
+    .smIcons1{
+      visibility: hidden;
+    }
+
+    #iconsHover:hover{
+      background-color: #ba4270;
+    }
+
+  /* Tablet View */
+
+
+
+  @media screen and (max-width:1080px){
+
+
+    .main {
+      width: 100%;
+      height: 1300px;
+      background-color: rgb(251, 252, 254);
+    }
+
+    #demoBtn{
+      margin-left: 170px;;
+      height: 43px;
+      width: 174px;
+      border-radius: 77px;
+      background-color: #ba4270;
+      color: white;
+      font-family: "Public Sans";
+      border: none;
+      position: absolute;
+      z-index: 1;
+      
+  
+  }
+
+
+.bgImg{
+  visibility: hidden;
+}
+
+.bgImgNew{
+  visibility: visible;
+  position: absolute;
+  right: 0;
+}
+
+.bgImage{
+  position: absolute;
+  right: 0;
+}
+
+#logoImg {
+width: 200px;
+height: 100px;
+margin-left: 150px;
+}
+
+.head {
+margin-left: 50px;
+font-family: "Public Sans";
+font-weight: 600;
+color: #6c8294;
+
+}
+
+.itemBox{
+  width: 300px;
+}
+
+.items {
+  display: flex;
+  width: 790px;
+  justify-content: space-around;
+}
+
+.hr{
+  visibility: hidden;
+}
+
+.hr1{
+  visibility: visible;
+}
+
+.heading {
+  font-family: 'DM Serif Display';
+  font-size: 56px;
+  color: #36536b;
+  margin-left: 445px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.btmTxtF {
+  font-family: 'DM Serif Display';
+  font-size: 45px;
+  color: #36536b;
+  margin-left: 370px;
+  margin-top: 100px;
+}
+
+#inpBtn {
+  position: relative;
+  margin-left: 202px;
+}
+
+.plans {
+  font-family: 'DM Serif Display';
+  font-size: 30px;
+  color: #ba4270;
+  margin-left: 129px;
+  width: 199px;
+}
+
+.plan1 {
+  font-family: "Public Sans";
+  color: #6c8294;
+  font-size: 15px;
+  line-height: 28px;
+  margin-left: 129px;
+  width: 255px;
+}
+
+#logoImage{
+  visibility: hidden;
+}
+
+.smIcons1{
+  visibility: hidden;
+}
+
+
+  }
+
+
+
+    /* mobile view  */
+
+
+  @media screen and (max-width:720px){
+  
+
+    body{
+      position: sticky;
+
+    }
+    .main {
+      width: 100%;
+      height: 3000px;
+      background-color: rgb(251, 252, 254);
+    }
+
+    .items {
+      display: flex;
+     flex-direction: column;
+     width: 100%;
+    }
+    .footer{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .btmTxtF {
+      font-family: 'DM Serif Display';
+      font-size: 42px;
+      color: #36536b;
+      margin-left: 245px;
+      margin-top: 100px;
+  }
+
+  
+
+
+.item1 {
+  width: 300px;
+  margin-left: 107px;
+  margin-top: 250px;
+
+}
+.item2{
+  width: 300px;
+  margin-left: 107px;
+  margin-top: 250px;
+
+}
+.item3 {
+  width: 300px;
+  margin-left: 107px;
+  margin-top: 250px;
+
+}
+
+.heading{
+  margin-left: 290px;
+  margin-top: 100px;
+}
+
+.plans {
+  font-family: 'DM Serif Display';
+  font-size: 30px;
+  color: #ba4270;
+  margin-left: 174px;
+  width: 199px;
+}
+
+.money {
+  font-family: 'DM Serif Display';
+  font-size: 46px;
+  color: #36536b;
+  margin-left: 170px;
+}
+
+.header {
+  display: flex;
+flex-direction: column;  /* width: 100%; */
+}
+
+#demoBtn {
+  margin-left: -63px;
+  height: 43px;
+  width: 174px;
+  border-radius: 69px;
+  background-color: #ba4270;
+  color: white;
+  font-family: "Public Sans";
+  border: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 50px;
+
+}
+.head {
+  margin-left: 50px;
+  font-family: "Public Sans";
+  font-weight: 600;
+  color: #6c8294;
+  margin-top: 50px;
+  z-index: 1;
+
+}
+
+#button1 {
+  width: 460px;
+  height: 61px;
+  border-radius: 77px;
+  background-color: #ba4270;
+  color: white;
+  font-family: "Public Sans";
+  border: none;
+  position: absolute;
+  left: -4em;
+  bottom: -75px;
+  margin-top: 116px;
+}
+.footerBar {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 255px;
+}
+
+#inp {
+  width: 460px;
+  height: 60px;
+  background-color: white;
+  border-radius: 74px;
+  border: none;
+  font-family: "Public Sans";
+  font-weight: 600;
+  color: #6c8294;
+  margin-top: 20px;
+  position: absolute;
+  left: -64px;
+}
+
+.footerBar{
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+padding-top: 100px;}
+
+.bottomBar {
+  background-color: #1b262f;
+  margin-top: 50px;
+  height: 550px;
+}
+
+#bottom-image {
+  position: absolute;
+  bottom: 1;
+  margin-top: 158px;
+  width: 694px;
+  visibility: visible;
+}
+
+#headLogo{
+  visibility: hidden;
+}
+
+#logoImage{
+  width: 200px;
+  visibility: visible;
+}
+
+
+#togglerHead{
+  background-color: #1b262f;
+    height: 600px;
+    margin-left: 70px;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    width: 486px;
+}
+
+.smIcons{
+  visibility: hidden;
+      }
+
+      .smIcons1{
+        visibility: visible;
+      }
+
+
+
   }
 
